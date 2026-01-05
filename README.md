@@ -96,7 +96,7 @@ User Question ───────────┘
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 1. Clone the repository
 ```bash
@@ -114,7 +114,7 @@ python -m pip install -e .
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 1. Ingest the PDF
 ```bash
@@ -138,7 +138,7 @@ python -m src.main ask "Explain TF-IDF simply, with an example."
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 The retrieval system is evaluated on a set of 40 NLP-related questions.
 
@@ -155,7 +155,7 @@ These metrics show that relevant passages are almost always retrieved among the 
 
 ---
 
-## 🔁 Iterative Approach
+##  Iterative Approach
 
 An iterative experimentation process was followed and is documented in:
 
@@ -173,7 +173,7 @@ This notebook demonstrates:
 
 ---
 
-## ⚠️ Limitations and Future Improvements
+##  Limitations and Future Improvements
 
 ### Current limitations
 
@@ -195,7 +195,7 @@ This notebook demonstrates:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates that a well-designed RAG system, even when based on a single document, can provide reliable, pedagogical, and source-grounded answers.
 It fully meets the objectives of the NLP course and serves as a strong foundation for intelligent tutoring systems.
