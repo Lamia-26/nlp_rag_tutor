@@ -1,0 +1,41 @@
+question,gold_keyword,hit@k,rank_first_hit,top_sources
+What is NLP (Natural Language Processing)?,natural language processing,True,2,cours.pdf:9-12 | cours.pdf:486-486 | cours.pdf:23-24 | cours.pdf:390-390 | cours.pdf:574-575
+What are the main tasks in NLP?,tasks,True,1,cours.pdf:190-192 | cours.pdf:9-12 | cours.pdf:486-486 | cours.pdf:390-390 | cours.pdf:465-466
+What is tokenization?,tokenization,True,1,cours.pdf:29-29 | cours.pdf:27-27 | cours.pdf:234-235 | cours.pdf:27-28 | cours.pdf:24-26
+What is a token?,token,True,1,cours.pdf:234-235 | cours.pdf:200-201 | cours.pdf:29-29 | cours.pdf:253-254 | cours.pdf:202-203
+What is the difference between stemming and lemmatization?,lemmatization,True,1,cours.pdf:13-13 | cours.pdf:32-32 | cours.pdf:578-578 | cours.pdf:390-391 | cours.pdf:588-589
+Explain sentence segmentation.,sentence segmentation,True,1,cours.pdf:33-33 | cours.pdf:545-546 | cours.pdf:552-553 | cours.pdf:588-589 | cours.pdf:368-370
+What are stop words and why are they removed?,stop words,False,,cours.pdf:22-22 | cours.pdf:302-303 | cours.pdf:27-27 | cours.pdf:599-599 | cours.pdf:503-503
+What is TF-IDF? Explain the intuition.,tf-idf,True,1,cours.pdf:121-121 | cours.pdf:301-302 | cours.pdf:124-125 | cours.pdf:292-293 | cours.pdf:125-125
+Give the TF-IDF formula.,tf-idf,True,1,cours.pdf:121-121 | cours.pdf:292-293 | cours.pdf:301-302 | cours.pdf:124-125 | cours.pdf:125-125
+What is cosine similarity?,cosine,True,1,cours.pdf:118-118 | cours.pdf:242-242 | cours.pdf:118-120 | cours.pdf:125-125 | cours.pdf:124-125
+Why is cosine similarity used with TF-IDF vectors?,cosine similarity,True,2,cours.pdf:124-125 | cours.pdf:118-120 | cours.pdf:125-125 | cours.pdf:118-118 | cours.pdf:120-120
+What is an n-gram language model?,n-gram,True,1,cours.pdf:40-41 | cours.pdf:56-56 | cours.pdf:46-46 | cours.pdf:52-52 | cours.pdf:41-41
+What is perplexity in language models?,perplexity,True,1,cours.pdf:49-49 | cours.pdf:223-223 | cours.pdf:50-51 | cours.pdf:48-48 | cours.pdf:60-61
+What is smoothing in n-gram models?,smoothing,True,1,cours.pdf:54-55 | cours.pdf:56-56 | cours.pdf:43-43 | cours.pdf:55-55 | cours.pdf:46-46
+What is a language model?,language model,True,1,cours.pdf:40-41 | cours.pdf:242-243 | cours.pdf:229-231 | cours.pdf:272-274 | cours.pdf:250-250
+What is part-of-speech tagging (POS tagging)?,part-of-speech,True,1,cours.pdf:374-374 | cours.pdf:371-371 | cours.pdf:392-392 | cours.pdf:575-576 | cours.pdf:380-380
+What is named entity recognition (NER)?,named entity,True,2,cours.pdf:394-395 | cours.pdf:390-390 | cours.pdf:246-246 | cours.pdf:393-393 | cours.pdf:375-375
+What is parsing in NLP?,parsing,True,1,cours.pdf:368-370 | cours.pdf:416-416 | cours.pdf:545-546 | cours.pdf:414-415 | cours.pdf:582-582
+What is constituency parsing?,constituency,True,1,cours.pdf:368-370 | cours.pdf:416-416 | cours.pdf:414-415 | cours.pdf:402-402 | cours.pdf:411-412
+What is dependency parsing?,dependency,True,1,cours.pdf:441-443 | cours.pdf:423-425 | cours.pdf:441-441 | cours.pdf:368-370 | cours.pdf:419-419
+What is WordNet?,wordnet,True,5,cours.pdf:475-475 | cours.pdf:375-376 | cours.pdf:472-473 | cours.pdf:140-140 | cours.pdf:492-492
+What is word sense disambiguation?,word sense,True,1,cours.pdf:110-111 | cours.pdf:239-240 | cours.pdf:572-573 | cours.pdf:138-138 | cours.pdf:238-239
+What is Word2Vec?,word2vec,True,1,cours.pdf:125-126 | cours.pdf:131-131 | cours.pdf:126-126 | cours.pdf:495-496 | cours.pdf:125-125
+What is the difference between CBOW and Skip-gram?,skip-gram,True,1,cours.pdf:125-126 | cours.pdf:128-129 | cours.pdf:291-291 | cours.pdf:52-52 | cours.pdf:137-137
+What are word embeddings?,embeddings,True,1,cours.pdf:126-126 | cours.pdf:238-239 | cours.pdf:132-132 | cours.pdf:113-114 | cours.pdf:239-239
+What problem does TF-IDF have that embeddings solve?,embeddings,True,1,cours.pdf:132-132 | cours.pdf:137-138 | cours.pdf:121-121 | cours.pdf:131-131 | cours.pdf:292-293
+What is a neural language model?,neural language model,True,1,cours.pdf:165-165 | cours.pdf:140-140 | cours.pdf:190-190 | cours.pdf:163-163 | cours.pdf:161-161
+What is attention in neural networks?,attention,True,1,cours.pdf:193-193 | cours.pdf:195-195 | cours.pdf:280-281 | cours.pdf:192-193 | cours.pdf:194-195
+What is a transformer model?,transformer,True,1,cours.pdf:209-211 | cours.pdf:184-184 | cours.pdf:209-209 | cours.pdf:199-200 | cours.pdf:4-5
+What is self-attention?,self-attention,True,1,cours.pdf:195-195 | cours.pdf:280-281 | cours.pdf:194-195 | cours.pdf:197-197 | cours.pdf:196-196
+What is BERT?,bert,True,1,cours.pdf:236-237 | cours.pdf:235-235 | cours.pdf:307-307 | cours.pdf:412-412 | cours.pdf:234-235
+What is GPT?,gpt,True,2,cours.pdf:218-219 | cours.pdf:201-201 | cours.pdf:499-500 | cours.pdf:547-547 | cours.pdf:16-16
+What is transfer learning in NLP?,transfer learning,False,,cours.pdf:109-110 | cours.pdf:244-245 | cours.pdf:211-212 | cours.pdf:557-557 | cours.pdf:218-218
+What is fine-tuning?,fine-tuning,True,1,cours.pdf:331-331 | cours.pdf:222-222 | cours.pdf:74-75 | cours.pdf:257-257 | cours.pdf:250-251
+What is information retrieval (IR)?,information retrieval,True,1,cours.pdf:298-299 | cours.pdf:299-299 | cours.pdf:332-333 | cours.pdf:314-314 | cours.pdf:309-310
+What is BM25?,bm25,True,1,cours.pdf:301-302 | cours.pdf:574-575 | cours.pdf:385-386 | cours.pdf:380-381 | cours.pdf:4-4
+What is the difference between TF-IDF and BM25?,bm25,True,1,cours.pdf:301-302 | cours.pdf:121-121 | cours.pdf:124-125 | cours.pdf:292-293 | cours.pdf:125-125
+What is question answering in NLP?,question answering,True,1,cours.pdf:316-316 | cours.pdf:589-590 | cours.pdf:309-310 | cours.pdf:316-317 | cours.pdf:261-261
+What is RAG (Retrieval-Augmented Generation)?,rag,True,1,cours.pdf:311-311 | cours.pdf:310-310 | cours.pdf:293-294 | cours.pdf:316-317 | cours.pdf:299-299
+Why is retrieval important in RAG systems?,retrieval,True,1,cours.pdf:311-311 | cours.pdf:5-6 | cours.pdf:310-310 | cours.pdf:299-299 | cours.pdf:312-312

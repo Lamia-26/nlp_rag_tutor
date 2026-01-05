@@ -1,0 +1,13 @@
+[project]
+name = "nlp-rag-tutor"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "pdfplumber>=0.11.0",
+  "tqdm>=4.66.0",
+  "numpy>=1.26.0",
+  "faiss-cpu>=1.8.0",
+  "sentence-transformers>=3.0.0",
+  "python-dotenv>=1.0.1",
+  "groq>=0.11.0",
+]
