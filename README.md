@@ -171,6 +171,8 @@ This notebook demonstrates:
 
 - quantitative and qualitative analysis of improvements.
 
+- small to big tested 
+
 ---
 
 ##  Limitations and Future Improvements
