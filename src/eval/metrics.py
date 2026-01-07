@@ -20,7 +20,7 @@ def keyword_in_text(keyword: str, text: str) -> bool:
 @dataclass
 class RetrievalRowResult:
     hit: bool
-    rank: Optional[int]  # 1-based rank of first hit if any
+    rank: Optional[int]  
 
 
 def eval_retrieval_by_keyword(hits_texts: List[str], gold_keyword: str) -> RetrievalRowResult:
@@ -52,5 +52,4 @@ def exact_match(pred: str, gold: str) -> bool:
 
 
 def answer_contains(pred: str, gold: str) -> bool:
-    # plus permissif que Exact Match
     return _norm(gold) in _norm(pred)

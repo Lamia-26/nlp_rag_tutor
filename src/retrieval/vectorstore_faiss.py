@@ -7,7 +7,7 @@ import numpy as np
 
 class FaissVectorStore:
     def __init__(self, dim: int):
-        self.index = faiss.IndexFlatIP(dim)  # cosine if normalized
+        self.index = faiss.IndexFlatIP(dim) 
         self.meta: List[Dict] = []
 
     def add(self, vectors: np.ndarray, metas: List[Dict]) -> None:

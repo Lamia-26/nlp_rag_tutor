@@ -15,7 +15,6 @@ from src.eval.metrics import (
     answer_contains,
 )
 
-# optionnel (si --use_llm)
 from src.rag.pipeline import RagTutor, RagConfig
 from src.rag.llm_groq import GroqConfig
 
@@ -121,13 +120,11 @@ def run_evaluation(index_dir: Path, cfg: EvalConfig) -> Dict:
     }
 
     if cfg.use_llm:
-        # si aucune gold_answer, ces listes seront vides
         if em_list:
             metrics["exact_match_rate"] = sum(1 for x in em_list if x) / len(em_list)
         if contains_list:
             metrics["answer_contains_rate"] = sum(1 for x in contains_list if x) / len(contains_list)
 
-    # write outputs
     out_rows_path = cfg.out_dir / "per_question.csv"
     with out_rows_path.open("w", encoding="utf-8", newline="") as f:
         fieldnames = list(per_row[0].keys())

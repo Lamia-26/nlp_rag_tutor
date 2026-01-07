@@ -18,7 +18,7 @@ def build_index(chunks_jsonl: Path, index_dir: Path, embed_cfg: EmbeddingConfig)
         "pdf_name": c["pdf_name"],
         "page_start": c["page_start"],
         "page_end": c["page_end"],
-        "text": c["text"],  # utile pour debug (tu peux enlever plus tard)
+        "text": c["text"], 
     } for c in chunks]
 
     emb = Embedder(embed_cfg).embed(texts, batch_size=32)

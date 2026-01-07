@@ -20,7 +20,7 @@ def chunk_pages(pages: List[Dict], cfg: ChunkConfig) -> List[Dict]:
     pages = sorted(pages, key=lambda r: int(r["page"]))
     if not pages:
         return []
-
+    
     doc_id = pages[0]["doc_id"]
     pdf_name = pages[0]["pdf_name"]
 
@@ -55,7 +55,6 @@ def chunk_pages(pages: List[Dict], cfg: ChunkConfig) -> List[Dict]:
         })
         idx += 1
 
-        # keep overlap text, and set next chunk start approx at last page of previous chunk
         if cfg.overlap_chars > 0 and len(buf) > cfg.overlap_chars:
             buf = buf[-cfg.overlap_chars:]
             p_start = chunk_p_end

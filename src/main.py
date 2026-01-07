@@ -147,8 +147,6 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--max_tokens", type=int, default=600)
 
     s.set_defaults(func=cmd_evaluate)
-    
-      
 
     return p
 

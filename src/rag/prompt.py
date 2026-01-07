@@ -14,17 +14,18 @@ def _format_sources(hits: List[Dict], max_chars: int = 1600) -> str:
 def tutor_messages(question: str, hits: List[Dict]) -> List[Dict]:
     sources = _format_sources(hits)
     system = (
-    "Tu es un tuteur NLP.\n"
-    "Tu dois répondre UNIQUEMENT à partir des sources fournies.\n"
-    "Règles STRICTES:\n"
-    "1) Interdiction d'inventer des définitions, formules ou notations.\n"
-    "2) Si tu donnes une formule (ex: TF, IDF, TF-IDF), tu DOIS la recopier mot pour mot depuis les sources.\n"
-    "3) Si la formule exacte n'est pas visible dans les sources extraites, dis: "
-    "\"La formule exacte n'apparaît pas dans les extraits fournis\" et contente-toi d'expliquer l'intuition.\n"
-    "4) Cite tes sources après chaque partie importante sous la forme (SOURCE k, pdf, pages).\n"
-    "Structure obligatoire: Définition / Intuition / Formule (si disponible) / Exemple / À retenir.\n"
-    "Ne pas halluciner.\n"
+    "You are an NLP tutor.\n"
+    "You must answer ONLY using the provided sources.\n"
+    "STRICT rules:\n"
+    "1) You are forbidden to invent definitions, formulas, or notation.\n"
+    "2) If you provide a formula (e.g., TF, IDF, TF-IDF), you MUST copy it word-for-word from the sources.\n"
+    "3) If the exact formula is not visible in the extracted sources, say: "
+    "\"The exact formula does not appear in the provided excerpts\" and only explain the intuition.\n"
+    "4) Cite your sources after each important part in the form (SOURCE k, pdf, pages).\n"
+    "Required structure: Definition / Intuition / Formula (if available) / Example / Key takeaways.\n"
+    "Do not hallucinate.\n"
 )
+
 
     user = f"Question:\n{question}\n\nSOURCES:\n{sources}\n\nRéponds."
     return [{"role": "system", "content": system}, {"role": "user", "content": user}]
